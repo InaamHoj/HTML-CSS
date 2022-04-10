@@ -1,0 +1,193 @@
+.premierepage {
+    display:flex; 
+}
+
+.container-fluid {
+    padding: 0%;
+    width: fit-content;
+}
+
+.backgroundpic {
+    background-image: url('coffeebreak.jpg');
+    width: 100%;
+    opacity: 0.9;
+}
+
+.containertext {
+    position: absolute;
+    left: 40%;
+    bottom: 40%;
+}
+ 
+.textback {
+    position: relative;
+    text-align: center; 
+    justify-content: center;
+    left: -20%;
+    bottom: 40%;
+    color: white;
+}
+
+.textback1 {
+    position: relative;
+    text-align: center; 
+    justify-content: center;
+    left: -20%;
+    bottom: 40%;
+    color: white;
+    background-color: #389db4;
+    opacity: 0.7;
+    padding: 20px;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    background-color: #389db4;
+    opacity: 0.7;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    justify-content: center;
+    height: 20px;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.droite:hover {
+    background-color: rgb(214, 207, 207);
+    color: black;
+}
+
+.gauche:hover {
+    background-color: rgb(214, 207, 207);
+    color: black;
+}
+
+.col-9 {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    position: absolute;
+    right: 0;
+}
+
+.droite {
+    display: inline-flex;
+    padding-right: 60px;
+    padding-left: 20px;
+}
+
+.col-3 {
+    position: absolute;
+    padding-right: 30px;
+    padding-left: 60px;
+    left: 0;
+}
+
+.container-fluid1 {
+    display: flex;
+    flex-direction: row;
+    background-color: #C7ECF6;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    justify-content: space-between;
+    
+}
+
+.col-4 {
+    background-color: #389db4;
+    color: white;
+    width: 350px;
+    padding: 20px;
+    margin-left: 50px;
+    border: 10px white;
+    border-style: inset;
+}
+
+.col-8 {
+    justify-content: flex-end;
+}
+
+.workplace {
+width: 100%;
+justify-content: flex-end;
+}
+
+.row-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.text2 {
+    padding-right: 30px;
+    padding-left: 50px;
+    margin-top: -135px;
+}
+
+.titreinver {
+    writing-mode: vertical-rl;
+    transform:rotate(180deg);
+    margin-left: -14px;
+    margin-top: -140px;
+}
+
+.row1 {
+    height: 200px;
+    width: 100%;
+    background-color: #389db4;
+    display: flex;
+}
+
+.bloctextp3 {
+
+    color: white;
+    justify-content: center;
+    width: 32%;
+    height: 70%;
+    position: relative;
+    left: 33%;
+    top: 20%;
+    border: white solid 1px;
+    padding: 10px;
+    }
+
+.ligne2 {
+    writing-mode: vertical-rl;
+    transform:rotate(180deg);
+    margin-left: -7px;
+    margin-top: 5px;
+}
+
+.ligne3 {
+    margin-top: -106px;
+    margin-left: 20px;
+    padding: 30px;
+    text-align: justify;
+}
+
+.row2 {
+    
+    padding: 60px 100px;
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    background-color: #C7ECF6;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo {
+    position:relative;
+    width: 150px;
+    height: 150px;
+    margin: 50px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+ 
